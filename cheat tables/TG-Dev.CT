@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="45">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>6</ID>
+      <Description>"atropa pointer"</Description>
+      <VariableType>Double</VariableType>
+      <Address>"TG-Dev.exe"+00B91A50</Address>
+      <Offsets>
+        <Offset>B0</Offset>
+        <Offset>D90</Offset>
+        <Offset>30</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"timer pointer"</Description>
+      <VariableType>Double</VariableType>
+      <Address>"TG-Dev.exe"+00DC8F60</Address>
+      <Offsets>
+        <Offset>EC0</Offset>
+        <Offset>110</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>4</ID>
+      <Description>"isPausedPointer"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Double</VariableType>
+      <Address>"TG-Dev.exe"+00B91BA8</Address>
+      <Offsets>
+        <Offset>510</Offset>
+        <Offset>170</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>11</ID>
+      <Description>"room static"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"TG-Dev.exe"+DA1728</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
