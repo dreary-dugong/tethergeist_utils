@@ -18,7 +18,10 @@ start {
 split {
 
     // split when an atropa flower is collected or the end screen is up (19 is the room id for the end screen)
-    return ((current.atropaCount != 0 && current.atropaCount == old.atropaCount + 1) || current.room == 19);
+    // or the tutorial is completed (moved from room 3 to 4)
+    return ((current.atropaCount != 0 && current.atropaCount == old.atropaCount + 1) || 
+            (current.room == 19 && old.room == 18) ||
+            (current.room == 4 && old.room == 3));
 }
 
 isLoading {

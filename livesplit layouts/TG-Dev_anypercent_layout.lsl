@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>680</X>
-  <Y>274</Y>
+  <X>-475</X>
+  <Y>271</Y>
   <VerticalWidth>286</VerticalWidth>
   <VerticalHeight>676</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -43,7 +43,7 @@
       <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <ScriptPath>C:\Users\Daniel\Documents\Tethergeist Utils\autosplitters\TG-Dev_anypercent_splitter.asl</ScriptPath>
+        <ScriptPath>C:\Users\Daniel\Documents\Tethergeist Utils\autosplitters\TG-Dev_herbspercent_splitter.asl</ScriptPath>
         <Start>True</Start>
         <Reset>True</Reset>
         <Split>True</Split>
